@@ -1,0 +1,175 @@
+circuits:
+  Bahrain_Grand_Prix:
+    total_laps: 57
+    sc_probability_per_lap: 0.015
+    overtaking_difficulty: 0.3
+    avg_air_temp: 28
+    avg_track_temp: 38
+  Saudi_Arabian_Grand_Prix:
+    total_laps: 50
+    sc_probability_per_lap: 0.020
+    overtaking_difficulty: 0.4
+    avg_air_temp: 30
+    avg_track_temp: 36
+  Australian_Grand_Prix:
+    total_laps: 58
+    sc_probability_per_lap: 0.025
+    overtaking_difficulty: 0.4
+    avg_air_temp: 22
+    avg_track_temp: 30
+  Japanese_Grand_Prix:
+    total_laps: 53
+    sc_probability_per_lap: 0.020
+    overtaking_difficulty: 0.5
+    avg_air_temp: 20
+    avg_track_temp: 28
+  Chinese_Grand_Prix:
+    total_laps: 56
+    sc_probability_per_lap: 0.020
+    overtaking_difficulty: 0.4
+    avg_air_temp: 22
+    avg_track_temp: 30
+  Miami_Grand_Prix:
+    total_laps: 57
+    sc_probability_per_lap: 0.025
+    overtaking_difficulty: 0.3
+    avg_air_temp: 30
+    avg_track_temp: 42
+  Emilia_Romagna_Grand_Prix:
+    total_laps: 63
+    sc_probability_per_lap: 0.025
+    overtaking_difficulty: 0.6
+    avg_air_temp: 20
+    avg_track_temp: 28
+  Monaco_Grand_Prix:
+    total_laps: 78
+    sc_probability_per_lap: 0.045
+    overtaking_difficulty: 0.95
+    avg_air_temp: 22
+    avg_track_temp: 32
+  Canadian_Grand_Prix:
+    total_laps: 70
+    sc_probability_per_lap: 0.030
+    overtaking_difficulty: 0.5
+    avg_air_temp: 20
+    avg_track_temp: 28
+  Spanish_Grand_Prix:
+    total_laps: 66
+    sc_probability_per_lap: 0.015
+    overtaking_difficulty: 0.3
+    avg_air_temp: 26
+    avg_track_temp: 36
+  Austrian_Grand_Prix:
+    total_laps: 71
+    sc_probability_per_lap: 0.020
+    overtaking_difficulty: 0.3
+    avg_air_temp: 22
+    avg_track_temp: 30
+  British_Grand_Prix:
+    total_laps: 52
+    sc_probability_per_lap: 0.020
+    overtaking_difficulty: 0.4
+    avg_air_temp: 18
+    avg_track_temp: 28
+  Hungarian_Grand_Prix:
+    total_laps: 70
+    sc_probability_per_lap: 0.015
+    overtaking_difficulty: 0.6
+    avg_air_temp: 28
+    avg_track_temp: 38
+  Belgian_Grand_Prix:
+    total_laps: 44
+    sc_probability_per_lap: 0.025
+    overtaking_difficulty: 0.4
+    avg_air_temp: 18
+    avg_track_temp: 26
+  Dutch_Grand_Prix:
+    total_laps: 72
+    sc_probability_per_lap: 0.020
+    overtaking_difficulty: 0.6
+    avg_air_temp: 20
+    avg_track_temp: 28
+  Italian_Grand_Prix:
+    total_laps: 53
+    sc_probability_per_lap: 0.030
+    overtaking_difficulty: 0.35
+    avg_air_temp: 24
+    avg_track_temp: 34
+  Azerbaijan_Grand_Prix:
+    total_laps: 51
+    sc_probability_per_lap: 0.025
+    overtaking_difficulty: 0.3
+    avg_air_temp: 26
+    avg_track_temp: 36
+  Singapore_Grand_Prix:
+    total_laps: 62
+    sc_probability_per_lap: 0.025
+    overtaking_difficulty: 0.7
+    avg_air_temp: 30
+    avg_track_temp: 34
+  United_States_Grand_Prix:
+    total_laps: 56
+    sc_probability_per_lap: 0.020
+    overtaking_difficulty: 0.4
+    avg_air_temp: 24
+    avg_track_temp: 32
+  Mexico_City_Grand_Prix:
+    total_laps: 71
+    sc_probability_per_lap: 0.025
+    overtaking_difficulty: 0.5
+    avg_air_temp: 20
+    avg_track_temp: 30
+  Sao_Paulo_Grand_Prix:
+    total_laps: 71
+    sc_probability_per_lap: 0.030
+    overtaking_difficulty: 0.5
+    avg_air_temp: 24
+    avg_track_temp: 34
+  Las_Vegas_Grand_Prix:
+    total_laps: 50
+    sc_probability_per_lap: 0.015
+    overtaking_difficulty: 0.35
+    avg_air_temp: 15
+    avg_track_temp: 18
+  Qatar_Grand_Prix:
+    total_laps: 57
+    sc_probability_per_lap: 0.020
+    overtaking_difficulty: 0.35
+    avg_air_temp: 30
+    avg_track_temp: 36
+  Abu_Dhabi_Grand_Prix:
+    total_laps: 58
+    sc_probability_per_lap: 0.015
+    overtaking_difficulty: 0.4
+    avg_air_temp: 28
+    avg_track_temp: 34
+  French_Grand_Prix:
+    total_laps: 53
+    sc_probability_per_lap: 0.020
+    overtaking_difficulty: 0.35
+    avg_air_temp: 26
+    avg_track_temp: 36
+  Styrian_Grand_Prix:
+    total_laps: 71
+    sc_probability_per_lap: 0.020
+    overtaking_difficulty: 0.3
+    avg_air_temp: 22
+    avg_track_temp: 30
+  Portuguese_Grand_Prix:
+    total_laps: 66
+    sc_probability_per_lap: 0.015
+    overtaking_difficulty: 0.3
+    avg_air_temp: 22
+    avg_track_temp: 30
+  Turkish_Grand_Prix:
+    total_laps: 58
+    sc_probability_per_lap: 0.020
+    overtaking_difficulty: 0.5
+    avg_air_temp: 22
+    avg_track_temp: 30
+  Russian_Grand_Prix:
+    total_laps: 53
+    sc_probability_per_lap: 0.025
+    overtaking_difficulty: 0.4
+    avg_air_temp: 18
+    avg_track_temp: 26

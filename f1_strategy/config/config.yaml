@@ -1,0 +1,78 @@
+project:
+  name: "F1 Race Strategy Optimization"
+  version: "1.0.0"
+  random_seed: 42
+
+data:
+  seasons: [2021, 2022, 2023, 2024]
+  session_type: "R"
+  cache_path: "data/cache"
+  raw_path: "data/raw"
+  raw_tables: [laps, weather, results, race_control]
+  processed_path: "data/processed"
+  api_delay_seconds: 2
+
+fuel:
+  starting_kg: 105
+  burn_rate_kg_per_lap: 1.6
+  time_cost_per_kg: 0.035
+
+tyre:
+  compounds:
+    SOFT: 0
+    MEDIUM: 1
+    HARD: 2
+    INTERMEDIATE: 3
+    WET: 4
+  max_stint_laps:
+    SOFT: 30
+    MEDIUM: 40
+    HARD: 55
+    INTERMEDIATE: 999
+    WET: 999
+
+cleaning:
+  iqr_multiplier: 2.5
+  fastest_lap_margin: 1.05
+  max_forward_fill_laps: 3
+
+models:
+  train_test_split_by: "race"
+  train_ratio: 0.80
+  val_ratio: 0.10
+  test_ratio: 0.10
+  cv_folds: 5
+  laptime_target_mae: 0.5
+  laptime_target_r2: 0.92
+  tyre_deg_target_rmse: 0.3
+
+simulation:
+  fuel_burn_rate: 1.6
+  traffic_threshold_sec: 1.0
+  traffic_penalty_min: 0.3
+  traffic_penalty_max: 0.8
+  sc_lap_time_multiplier: 1.5
+  vsc_lap_time_multiplier: 1.2
+  monte_carlo_n_simulations: 5000
+  lap_time_noise_sigma: 0.15
+  pit_duration_mean: 2.5
+  pit_duration_std: 0.3
+
+rl:
+  algorithm: "PPO"
+  policy: "MlpPolicy"
+  learning_rate: 3.0e-4
+  n_steps: 2048
+  batch_size: 64
+  n_epochs: 10
+  total_timesteps: 500000
+  eval_freq: 50000
+  n_eval_episodes: 200
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+
+outputs:
+  figures_path: "docs/figures"
+  dpi: 300

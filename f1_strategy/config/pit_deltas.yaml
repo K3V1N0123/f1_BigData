@@ -1,0 +1,88 @@
+circuits:
+  Bahrain_Grand_Prix:
+    mean: 22.1
+    std: 0.5
+  Saudi_Arabian_Grand_Prix:
+    mean: 21.8
+    std: 0.4
+  Australian_Grand_Prix:
+    mean: 22.5
+    std: 0.5
+  Japanese_Grand_Prix:
+    mean: 21.5
+    std: 0.4
+  Chinese_Grand_Prix:
+    mean: 22.0
+    std: 0.5
+  Miami_Grand_Prix:
+    mean: 22.3
+    std: 0.5
+  Emilia_Romagna_Grand_Prix:
+    mean: 23.0
+    std: 0.5
+  Monaco_Grand_Prix:
+    mean: 28.0
+    std: 0.8
+  Canadian_Grand_Prix:
+    mean: 22.0
+    std: 0.5
+  Spanish_Grand_Prix:
+    mean: 22.5
+    std: 0.5
+  Austrian_Grand_Prix:
+    mean: 21.0
+    std: 0.4
+  British_Grand_Prix:
+    mean: 22.0
+    std: 0.5
+  Hungarian_Grand_Prix:
+    mean: 22.8
+    std: 0.5
+  Belgian_Grand_Prix:
+    mean: 19.5
+    std: 0.4
+  Dutch_Grand_Prix:
+    mean: 22.0
+    std: 0.5
+  Italian_Grand_Prix:
+    mean: 23.5
+    std: 0.5
+  Azerbaijan_Grand_Prix:
+    mean: 22.0
+    std: 0.5
+  Singapore_Grand_Prix:
+    mean: 24.0
+    std: 0.6
+  United_States_Grand_Prix:
+    mean: 22.5
+    std: 0.5
+  Mexico_City_Grand_Prix:
+    mean: 22.0
+    std: 0.5
+  Sao_Paulo_Grand_Prix:
+    mean: 22.0
+    std: 0.5
+  Las_Vegas_Grand_Prix:
+    mean: 22.5
+    std: 0.5
+  Qatar_Grand_Prix:
+    mean: 21.5
+    std: 0.4
+  Abu_Dhabi_Grand_Prix:
+    mean: 22.0
+    std: 0.5
+  French_Grand_Prix:
+    mean: 22.0
+    std: 0.5
+  Styrian_Grand_Prix:
+    mean: 21.0
+    std: 0.4
+  Portuguese_Grand_Prix:
+    mean: 22.5
+    std: 0.5
+  Turkish_Grand_Prix:
+    mean: 22.0
+    std: 0.5
+  Russian_Grand_Prix:
+    mean: 22.5
+    std: 0.5
